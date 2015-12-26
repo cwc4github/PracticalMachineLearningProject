@@ -163,7 +163,7 @@ confRF
 
 
 ## Conclusions
-Compared predictions with the cross-validation set, the accuracy of the Decision-Tree and Random-Forests models is 0.739 and 0.993, respectively. Therefore, the Random Forests model is selected to the 20 test cases available in the test data.
+Compared predictions with the cross-validation set, the accuracy of the Decision-Tree and Random-Forests models is 0.739 and 0.993, respectively. Therefore, the Random Forests model is selected to the 20 test cases available in the testing set.
 
 ## Applying Selected Model to Test Set
 There are 20 samples in the testing set. The predictions is printed below and written into files for assignment submissions.
