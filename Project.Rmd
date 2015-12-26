@@ -81,6 +81,8 @@ predictionsDT <- predict(modelDT, CVset, type = "class")
 confDT <- confusionMatrix(predictionsDT, CVset$classe)
 confDT 
 ```
+For the Decision-Tree model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is `r round(1-confDT$overall[1], 3)*100`\%.
+
 
 #### 2 Random Forests: Evaluatation
 
@@ -89,6 +91,7 @@ predictionsRF <- predict(modelRF, CVset, type = "class")
 confRF <- confusionMatrix(predictionsRF, CVset$classe)
 confRF
 ```
+For the Random-Forests model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is `r round(1-confRF$overall[1], 5)*100`\%.
 
 
 ## Conclusions
