@@ -117,7 +117,7 @@ confDT
 ## Detection Prevalence   0.2952   0.1538   0.2140   0.1522   0.1848
 ## Balanced Accuracy      0.9136   0.7567   0.8512   0.7917   0.8324
 ```
-For the Decision-Tree model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is 26.1\%.
+For the Decision-Tree model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is 26.1%.
 
 
 #### 2 Random Forests: Evaluatation
@@ -162,7 +162,7 @@ confRF
 ## Detection Prevalence   0.2858   0.1931   0.1760   0.1616   0.1835
 ## Balanced Accuracy      0.9991   0.9941   0.9928   0.9911   0.9985
 ```
-For the Random-Forests model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is 0.701\%.
+For the Random-Forests model, the out of sample error (ie `1 - accuracy` for predictions made against the cross-validation set) is 0.701%.
 
 
 ## Conclusions
